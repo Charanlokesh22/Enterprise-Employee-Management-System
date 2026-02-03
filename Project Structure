@@ -1,15 +1,22 @@
-employee-management-system
- ├── src/main/java/com/example/ems
- │    ├── controller
- │    │    └── EmployeeController.java
- │    ├── entity
- │    │    └── Employee.java
- │    ├── repository
- │    │    └── EmployeeRepository.java
- │    ├── service
- │    │    ├── EmployeeService.java
- │    │    └── EmployeeServiceImpl.java
- │    └── EmployeeManagementApplication.java
- ├── src/main/resources
- │    └── application.properties
+Enterprise-Employee-Management-System
+ ├── src
+ │   └── main
+ │       ├── java
+ │       │   └── com
+ │       │       └── company
+ │       │           └── ems
+ │       │               ├── controller
+ │       │               │   └── EmployeeController.java
+ │       │               ├── entity
+ │       │               │   └── Employee.java
+ │       │               ├── repository
+ │       │               │   └── EmployeeRepository.java
+ │       │               ├── service
+ │       │               │   ├── EmployeeService.java
+ │       │               │   └── EmployeeServiceImpl.java
+ │       │               └── EnterpriseEmployeeManagementApplication.java
+ │       │
+ │       └── resources
+ │           └── application.properties
+ │
  └── pom.xml
